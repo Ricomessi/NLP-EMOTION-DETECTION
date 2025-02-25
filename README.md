@@ -134,30 +134,53 @@ Model Performance
 Model bekerja dengan baik dalam memprediksi keenam label emosi, dengan nilai precision, recall, dan f1-score yang hampir semuanya berada di atas 70%. Akurasi model pada data uji mencapai 93%. Berikut adalah penjelasan untuk precision dan recall secara spesifik:
 
 Precision
+
 Label 0 (Kelas 0): Dari 100% prediksi untuk kelas ini, 95% di antaranya benar-benar kelas 0.
+
 Label 1 (Kelas 1): Dari 100% prediksi untuk kelas ini, 95% di antaranya benar-benar kelas 1.
+
 Label 2 (Kelas 2): Dari 100% prediksi untuk kelas ini, 83% di antaranya benar-benar kelas 2.
+
 Label 3 (Kelas 3): Dari 100% prediksi untuk kelas ini, 97% di antaranya benar-benar kelas 3.
+
 Label 4 (Kelas 4): Dari 100% prediksi untuk kelas ini, 88% di antaranya benar-benar kelas 4.
+
 Label 5 (Kelas 5): Dari 100% prediksi untuk kelas ini, 82% di antaranya benar-benar kelas 5.
+
 Recall
+
 Label 0 (Kelas 0): Dari semua data yang benar-benar kelas 0, 99% berhasil diprediksi dengan benar.
+
 Label 1 (Kelas 1): Dari semua data yang benar-benar kelas 1, 95% berhasil diprediksi dengan benar.
+
 Label 2 (Kelas 2): Dari semua data yang benar-benar kelas 2, 82% berhasil diprediksi dengan benar.
+
 Label 3 (Kelas 3): Dari semua data yang benar-benar kelas 3, 91% berhasil diprediksi dengan benar.
+
 Label 4 (Kelas 4): Dari semua data yang benar-benar kelas 4, 90% berhasil diprediksi dengan benar.
+
 Label 5 (Kelas 5): Dari semua data yang benar-benar kelas 5, 71% berhasil diprediksi dengan benar.
+
 F1-Score
+
 F1-score menunjukkan keseimbangan antara precision dan recall untuk setiap label:
 
 Label 0: 0.97
+
 Label 1: 0.95
+
 Label 2: 0.83
+
 Label 3: 0.94
+
 Label 4: 0.89
+
 Label 5: 0.76
+
 Rata-Rata dan Akurasi
+
 Akurasi: 93%
+
 Macro Average (rata-rata tidak berbobot) untuk precision, recall, dan f1-score masing-masing sebesar 0.90, 0.88, dan 0.89.
 Weighted Average (rata-rata berbobot sesuai dengan jumlah sampel pada setiap kelas) masing-masing sebesar 0.93 untuk precision, recall, dan f1-score.
 
